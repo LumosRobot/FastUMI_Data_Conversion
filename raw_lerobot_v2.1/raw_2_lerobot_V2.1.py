@@ -18,10 +18,10 @@ Minimal usage example (required flags shown):
         --task-name "Pick and place" \
         --traj-source merge \
         --target-fps 20 \
-        --source_camera_fps 20 \
+        --source_camera_fps 60 \
         --mode video \
         --output /path/to/save/lerobot \
-        --max_workers 8
+        --max-workers 8
 
 Notes:
 - The script expects session directories named like `session*` under
