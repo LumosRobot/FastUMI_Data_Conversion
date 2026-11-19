@@ -126,7 +126,7 @@ def load_arm_data(data_path):
     elif 'header_stamp' in timestamps.columns:
         timestamps['timestamp'] = timestamps['header_stamp']
     elif 'timestamp' not in timestamps.columns:
-        timestamps['timestamp'] = np.arange(len(timestamps), dtype=float))
+        timestamps['timestamp'] = np.arange(len(timestamps), dtype=float)
     
     if 'frame_index' not in timestamps.columns:
         timestamps['frame_index'] = np.arange(len(timestamps), dtype=int)
